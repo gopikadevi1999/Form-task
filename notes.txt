@@ -1,0 +1,35 @@
+// const firstNameEl = formEl.elements.fname;
+// const lastNameEl = formEl.elements.lname;
+// const addressEl = formEl.elements.address;
+// const pincodeEl = formEl.elements.pincode;
+// const type1El = formEl.elements.type1;
+// const type2El = formEl.elements.type2;
+// const choose1El = formEl.elements.choose1;
+// const choose2El = formEl.elements.choose2;
+// const choose3El = formEl.elements.choose3;
+// const choose4El = formEl.elements.choose4;
+// const choose5El = formEl.elements.choose5;
+// const stateEl = formEl.elements.state;
+// const countryEl = formEl.elements.country;
+
+// console.log(
+//   firstNameEl,
+//   lastNameEl,
+//   addressEl,
+//   pincodeEl,
+//   type1El,
+//   type2El,
+//   choose1El,
+//   choose2El,
+//   choose3El,
+//   choose4El,
+//   choose5El,
+//   stateEl,
+//   countryEl
+// );
+
+//another methode 
+
+const { fname, lname, address, pincode, type1, type2, choose1, choose2, choose3, choose4, choose5, state, country } = formEl.elements;
+
+console.log (fname, lname, address, pincode, type1, type2, choose1, choose2, choose3, choose4, choose5, state, country)
